@@ -1,0 +1,7 @@
+id,nome,email,assunto,mensagem,status,data,resposta_admin,data_resposta
+01,ZECA,thifaniamorim17@gmail.com,fatura,2121,Resolvido,"12-11-25 21:43:32",232,"12/11/2025 21:44:06"
+02,lincon,linconlau@fnx.com.br,Aplicativo,"Meu aplicativo nao abre",Aberto,"12-11-25 23:28:55",,
+03,EDUARDO,LUIZ_EDUARDOALVES@hOTMAIL.COM,CONSEGUI,"FINALIZEI O PROJETO",Aberto,"12-11-25 23:33:35",,
+04,Guilherme,guilherme@gmail.com,Cartão,"Perdi meu cartão ontem",Resolvido,"13-11-25 19:18:09","Pede outro no sac 4002-8922","13/11/2025 19:18:25"
+99,Alexandre,Alexandre@Estacio.com.br,Cartão,"Perdi meu cartão",Resolvido,"13-11-25 19:36:23","Ligue na central e solicite um novo. ","13/11/2025 19:36:52"
+100,AA,AA@A.COM,AA,AAA,Aberto,"13-11-25 20:24:49",,

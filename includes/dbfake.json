@@ -1,0 +1,97 @@
+{
+    "artigos": [
+        {
+            "id": 1,
+            "titulo": "Como redefinir sua senha de acesso",
+            "conteudo": "Para redefinir sua senha, acesse o aplicativo, vá em configurações > segurança e siga as instruções.",
+            "categoria": "Segurança"
+        },
+        {
+            "id": 2,
+            "titulo": "O que fazer se o cartão foi perdido",
+            "conteudo": "Bloqueie imediatamente pelo app, menu 'Cartões > Bloquear Cartão', e solicite uma segunda via.",
+            "categoria": "Cartões"
+        },
+        {
+            "id": 3,
+            "titulo": "Limite de transferência diária",
+            "conteudo": "Para consultar limite diário de transferência, consulte seu gerente digital via aplicativo.",
+            "categoria": "Transferências"
+        },
+        {
+            "id": 4,
+            "titulo": "Recarga",
+            "conteudo": "Insira o número de telefone, escolha a operadora (Tim, Vivo, Oi) e digite o valor desejado.",
+            "categoria": "Crédito no celular"
+        },
+        {
+            "id": 5,
+            "titulo": "Empréstimo",
+            "conteudo": "Para simular e solicitar um empréstimo, acesse o aplicativo, vá no menu 'Empréstimos' e verifique as opções disponíveis para você. Você pode simular valores e prazos antes de contratar.",
+            "categoria": "Crédito pessoal"
+        },
+        {
+            "id": 6,
+            "titulo": "Fatura",
+            "conteudo": "Para consultar ou pagar sua fatura, acesse o menu 'Cartões > Fatura' no aplicativo. Você pode copiar o código de barras ou gerar um PDF.",
+            "categoria": "Fatura"
+        },
+        {
+            "id": 7,
+            "titulo": "Ajustar limite",
+            "conteudo": "Para solicitar um ajuste no seu limite, acesse o menu 'Cartões', selecione 'Ajustar Limite' e siga as instruções para pedir um aumento ou redução.",
+            "categoria": "Cartões"
+        },
+        {
+            "id": 8,
+            "titulo": "Como fazer um Pix",
+            "conteudo": "Para realizar um Pix, acesse o aplicativo, vá até o menu 'Pix', escolha a opção 'Enviar Pix', selecione o tipo de chave (CPF, e-mail, telefone ou chave aleatória), informe o valor e confirme a operação. Você também pode gerar um QR Code para receber um Pix.",
+            "categoria": "Transferências"
+        },
+        {
+            "id": 9,
+            "titulo": "Como atualizar seus dados cadastrais",
+            "conteudo": "Para manter seu cadastro atualizado, acesse o aplicativo, vá em 'Perfil > Meus Dados' e edite as informações necessárias, como endereço, telefone ou e-mail. Confirme as alterações e aguarde a validação.",
+            "categoria": "Cadastro"
+        },
+        {
+            "id": 10,
+            "titulo": "Como consultar o saldo e o extrato da conta",
+            "conteudo": "Para ver seu saldo e extrato, abra o aplicativo e acesse o menu 'Conta'. Lá você pode visualizar o saldo disponível e acompanhar todas as movimentações, como entradas e saídas de dinheiro. É possível também filtrar por data e baixar o extrato em PDF, se desejar.",
+            "categoria": "Conta"
+        },
+        {
+            "id": 11,
+            "titulo": "Como abrir uma conta no Ice Bank",
+            "conteudo": "Abrir conta no Ice Bank é simples, você pode preencher e enviar uma proposta de abertura de conta On-line,selecionar a agência mais próxima. A agência escolhida recebe seus dados e entra em contato para passar efetivar o processo.w",
+            "categoria": "Conta"
+        },
+        {
+            "id": 12,
+            "titulo": "É possivel Abrir conta pela Internet?",
+            "conteudo": "On-line, você pode preencher e enviar uma proposta de abertura de conta. A agência escolhida recebe seus dados e entra em contato para passar efetivar o processo.",
+            "categoria": "Conta"
+        },
+        {
+            "id": 13,
+            "titulo": "Como solicitar o informe de rendimentos.",
+            "conteudo": "Pra retirar seus informes pelo internet banking, é só acessar a conta e clicar em Mais opções > Imposto de Renda. E pelo app, depois de acessar a conta, tocar em Mais serviços > Imposto de Renda.",
+            "categoria": "Aplicativo"
+        },
+        {
+            "id": 14,
+            "titulo": "Como faço para bloquear ou sustar cheques",
+            "conteudo": "Vá até uma Agência Bradesco ou ligue para o Fone Fácil. Pelo telefone, o bloqueio é provisório (2 dias úteis) e deve ser confirmado na agência. Para bloquear ou sustar um cheque roubado ou furtado, é obrigatória a apresentação do Boletim de Ocorrência com o número do cheque e o banco.",
+            "categoria": "Cheques"
+        },
+        {
+            "id": 15,
+            "titulo": "Como faço uma transfêrencia TED - Transfêrencia Eletrônica Disponível",
+            "conteudo": "Você pode transferir pelo Internet Banking, Bradesco Celular, Fone Fácil, nas Máquinas de Autoatendimento ou em qualquer Agência Bradesco. Existem 2 tipos de TED: TED E - Para contas de titularidades diferentes, no qual você deve fazer o cadastro das informações do destinatário pelo Internet Banking e levar em sua agência.TED D - Para contas de mesma titularidade, sem a necessidade de cadastro prévio. Confira aqui a tabela de horários e limites e ou saiba mais sobre transferências.",
+            "categoria": "Ted"
+        }
+    ],
+    
+    "tickets": []
+    
+}
