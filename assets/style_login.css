@@ -1,0 +1,150 @@
+/* =========================================================
+   ARQUIVO: style_painel2.css
+   FUNÇÃO: Controlar o design das páginas de login, painel e footer
+   CORREÇÃO: Layout flexível com footer fixo e login centralizado
+   ========================================================= */
+
+/* ======== REGRAS GERAIS ======== */
+html, body {
+    height: 100%; /* Garante que a página ocupe 100% da altura da tela */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove espaçamentos padrão */
+}
+
+body {
+    display: flex; /* Define o corpo como um container flexível */
+    flex-direction: column; /* Organiza o conteúdo verticalmente (header → main → footer) */
+    min-height: 100vh; /* Garante altura mínima de 100% da tela */
+    background-color: #1B263B; /* Mantém o tom azul escuro institucional do Ice Bank */
+    font-family: 'Poppins', sans-serif; /* Fonte moderna e legível */
+    color: #fff; /* Define o texto principal como branco */
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #0d1b2a;
+    color: #fff;
+}
+
+header .logo {
+    width: 80px;
+    height: auto;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* espaço entre o logo e o nome */
+}
+
+header .logoarea {
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+header nav a {
+    color: #e0e1dd;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3;   
+}
+header nav a:hover {
+    color: #00b4d8;
+}
+
+
+/* ======== ÁREA PRINCIPAL (MAIN) ======== */
+main {
+    flex: 1; /* Ocupa o espaço entre o cabeçalho e o rodapé */
+    display: flex; /* Ativa o flexbox para centralização */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    padding: 20px; /* Evita que o conteúdo encoste nas bordas */
+}
+
+/* ======== LOGIN BOX ======== */
+/* ======= LOGIN DO COLABORADOR */
+  
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1B263B, #0d1b2a); 
+}
+
+
+.login-box {
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    width: 400px;
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.login-box img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.login-box h2 {
+    color: #1B263B; 
+    margin-bottom: 8px;
+}
+
+.login-box p {
+    color: #495057;
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+/* Ajuste no estilo do botão de login */
+.login-box .btn-login {
+    width: 100%;
+    background-color: #0077B6; 
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-box .btn-login:hover {
+    /* Cor de hover do projeto: #005f8f */
+    background-color: #005f8f; 
+}
+
+/* Mensagem de erro no login */
+.erro-login {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #0d1b2a; /* Azul escuro do rodapé */
+    color: #e0e1dd; /* Texto claro */
+    text-align: center; /* Centraliza o texto */
+    padding: 12px 0; /* Altura uniforme */
+    font-size: 14px; /* Tamanho de texto padrão */
+    width: 100%; /* Ocupa toda a largura */
+    margin-top: auto; /* Empurra o rodapé para o fim da página */
+    letter-spacing: 0.5px; /* Leve espaçamento nas letras */
+}

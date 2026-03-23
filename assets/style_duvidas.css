@@ -1,0 +1,204 @@
+/* ======== LAYOUT GERAL ======== */
+body {
+    background-color: #f6f8fb; /* Fundo claro, estilo corporativo */
+    color: #1B263B; /* Azul escuro, transmite confiança */
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 35px;
+    background-color: #0d1b2a;
+    color: #fff;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* espaço entre o logo e o nome */
+}
+
+header nav a {
+    color: #e0e1dd;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3;   
+}
+header nav a:hover {
+    color: #00b4d8;
+}
+
+
+/* ======== BASE DE CONHECIMENTO (CLIENTE) ======== */
+
+/* Centraliza o título principal */
+
+.conteudo-base h1 {
+    text-align: center; /* Centraliza o texto */
+    font-size: 2.2rem; /* Tamanho maior para destaque */
+    margin-top: 35px; /* Espaço acima */
+    letter-spacing: 1px; /* Leve espaçamento entre letras */
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+/* ======== CAMPO DE BUSCA ======== */
+.form-busca {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap; /* Garante boa responsividade */
+}
+
+.form-busca input {
+    width: 50%;
+    max-width: 500px;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.form-busca input:focus {
+    border-color: #0077B6; /* Realce ao focar */
+    box-shadow: 0 0 5px rgba(0, 119, 182, 0.3);
+}
+
+.form-busca button {
+    background-color: #0077B6;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.form-busca button:hover {
+    background-color: #005f8f;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 119, 182, 0.3);
+}
+
+/* ======== LISTA DE ARTIGOS ======== */
+.lista-artigos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    padding: 40px 60px;
+    margin-top: 20px;
+}
+
+/* ======== CARTÕES (ARTIGOS) ======== */
+.artigo {
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 25px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    border-top: 4px solid #0077B6; /* Linha superior sutil */
+}
+
+.artigo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 18px rgba(0, 119, 182, 0.2);
+}
+
+/* ======== TÍTULO DO ARTIGO ======== */
+.artigo h2 {
+    text-align: center;
+    color: #1B263B;
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+}
+
+/* ======== CATEGORIA ======== */
+.artigo .categoria {
+    background-color: #1B263B;
+    color: #fcfcfc;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* ======== TEXTO DO ARTIGO ======== */
+.artigo p {
+    color: #333;
+    line-height: 1.6;
+    font-size: 17px;
+    text-align: center;
+}
+
+/* ======== MENSAGEM DE SEM RESULTADO ======== */
+.sem-resultado {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+/* ATALHOS */
+
+.atalhos {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.atalhos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /*quebra em telas menores */
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 260px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s;
+}
+
+.card :hover {
+    transform: scale(1.05); /* zoom suave no hover */
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    font-size: 15px;
+    font-weight: 5px;
+    background-color: #0d1b2a;
+    color: #e0e1dd;
+    text-align: center;
+    padding: 1px;
+    margin-top: 0;
+}

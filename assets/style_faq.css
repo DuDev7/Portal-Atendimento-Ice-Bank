@@ -1,16 +1,9 @@
-
-/* ======== RESET BÁSICO ======== */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Mantém proporções corretas */
-    font-family: 'Poppins', sans-serif; /* Fonte moderna e legível */
-}
-
 /* ======== LAYOUT GERAL ======== */
 body {
     background-color: #f6f8fb; /* Fundo claro, estilo corporativo */
     color: #1B263B; /* Azul escuro, transmite confiança */
+    margin: 0;
+    padding: 0;
 }
 
 /* Cabeçalho */
@@ -18,7 +11,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 40px;
+    padding: 8px 30px;
     background-color: #0d1b2a;
     color: #fff;
 }
@@ -39,20 +32,33 @@ header nav a:hover {
     color: #00b4d8;
 }
 
+
+
 /* HERO (SEÇAO PRINCIPAL )  */
 
-.hero {
-    text-align: center;
-    padding: 80px 20px;
-    background-color: #1B263B;
-    color: #fff;
+.conteudo-base h1 {
+    text-align: center; /* Centraliza o texto */
+    align-items: center;
+    padding: 10px 25px;
+    font-size: 2.2rem; /* Tamanho maior para destaque */
+    margin-top: 40px; /* Espaço acima */
+    letter-spacing: 1px; /* Leve espaçamento entre letras */
 }
+
+p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+
 
 .hero .btn {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 25px;
-    background-color: #00b4d8;
+    background-color: #cd11e6;
     color: #fff;
     border-radius: 6px;
     text-decoration: none;
@@ -60,7 +66,7 @@ header nav a:hover {
 }
 
 .hero .btn:hover {
-    background-color: #0096c7;
+    background-color: #e20cb4;
 }
 
 /* ATALHOS */
@@ -101,14 +107,6 @@ header nav a:hover {
 
 /* RODAPÉ */
 
-footer {
-    background-color: #0d1b2a;
-    color: #e0e1dd;
-    text-align: center;
-    padding: 15px;
-    margin-top: 40px;
-}
-
 
 /* ==== CONTAINER GERAL DO FAQ ==== */
 .faq-container {
@@ -117,7 +115,7 @@ footer {
   margin: 60px auto; /* Centraliza no meio da tela */
   background: #ffffff; /* Fundo branco para contraste */
   border-radius: 20px; /* Bordas arredondadas suaves */
-  padding: 25px; /* Espaçamento interno */
+  padding: 15px; /* Espaçamento interno */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Sombra leve para destaque */
 }
 
@@ -201,4 +199,15 @@ footer {
   .faq-resposta {
     font-size: 14px; /* Texto menor e mais legível em mobile */
   }
+}
+
+
+footer {
+    position: fixed;
+    background-color: #0d1b2a;
+    color: #e0e1dd;
+    text-align: center;
+    bottom: 0;
+    padding: 1px;
+    margin-top: 0;
 }

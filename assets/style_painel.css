@@ -1,0 +1,244 @@
+
+/* ======== ESTILO GERAL ======== */
+*html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #f5f8fc; 
+    color: #1B263B; /* tom de texto principal */
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #0d1b2a;
+    color: #fff;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+header nav a {
+    color: #e0e1dd;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s; 
+}
+header nav a:hover {
+    color: #00b4d8;
+}
+
+/* ==== ==== CONTAINERS PRINCIPAIS ======== */
+main h2 {
+    text-align: center;
+
+}
+.container {
+    background: #fff;
+    width: 85%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+/* ======== BOTÕES PADRÃO ======== */
+button, .btn, input[type="submit"] {
+    background-color: #0077B6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 18px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.3s;
+    text-decoration: none; 
+    display: inline-block; /* Garante que padding e width funcionem em links */
+}
+
+button:hover, .btn:hover, input[type="submit"]:hover {
+    background-color: #005f8f;
+}
+
+a.btn-voltar {
+    background: #adb5bd;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.btn-voltar:hover {
+    background: #868e96;
+}
+
+.btn-ver {
+    background-color: #0077B6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.btn-ver:hover {
+    background-color: #e63509;
+}
+
+/* ======== BOTÃO EXCLUIR ======== */
+
+
+
+/* === BOTÃO DE EXCLUSÃO === */
+
+.btn-excluir {
+    background-color: #b30000; /* Vermelho elegante */
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    float: right;
+    font-weight: 600;
+    margin-right: 5px; /* 🔧 Diminui a margem da borda direita */
+    margin-top: 5px; /* 🔧 Opcional: dá um leve respiro do topo */
+    transition: background-color 0.3s ease;
+}
+
+
+/* Efeito ao passar o mouse */
+.btn-excluir:hover {
+    background-color: #ff1a1a; /* Vermelho mais claro no hover */
+}
+
+/* Garante que o cabeçalho DELETAR (último TH) fique à direita */
+.tabela-artigos th:last-child {
+    text-align: right;
+}
+
+/* Garante que o conteúdo (o botão Excluir) na última TD fique à direita */
+.tabela-artigos td:last-child {
+    text-align: right; 
+    /* Use padding-right para empurrar o botão mais perto da borda da tabela */
+    padding-right: 15px; /* Ajuste este valor se necessário */
+}
+
+/* ======================================================
+   PAINEL DE TICKETS (ADMIN)
+   ====================================================== */
+
+
+.contadores {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #0077B6;
+    color: #fff;
+    padding: 25px 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    min-width: 200px;
+}
+
+.card.verde {
+    background: #2a9d8f; /* Cor verde para status resolvido */
+}
+
+
+.tabela-artigos { 
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabela-artigos th {
+    background-color: #1B263B;
+    color: #fff;
+    padding: 12px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.tabela-artigos td {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+    text-align: center;
+    background: #fff;
+}
+
+.tabela-artigos tr:hover td {
+    background: #f4f8ff;
+}
+
+/* ======================================================
+   VISUALIZAÇÃO E RESPOSTA DE TICKET
+   ====================================================== */
+
+.ticket-detalhes {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #0077B6;
+}
+
+.ticket-detalhes p {
+    margin-bottom: 10px;
+}
+
+.ticket-detalhes strong {
+    color: #0077B6;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    resize: vertical;
+}
+
+
+/* ======================================================
+   ALERTA DE SUCESSO
+   ====================================================== */
+.alerta-sucesso {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 12px 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    opacity: 1;
+    animation: fadeOut 3s forwards 2s;
+}
+

@@ -1,0 +1,208 @@
+/* ======== LAYOUT GERAL ======== */
+html, body {
+    background-color: #f6f8fb; /* Fundo claro, estilo corporativo */
+    color: #1B263B; /* Azul escuro, transmite confiança */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #0d1b2a;
+    color: #fff;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* espaço entre o logo e o nome */
+}
+
+header nav a {
+    color: #e0e1dd;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;   
+}
+header nav a:hover {
+    color: #00b4d8;
+}
+
+
+/* ======== FORMULÁRIO DE TICKET ======== */
+main .container {
+    max-width: 400px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 30px;
+   
+}
+
+.container p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-ticket {
+    width: 60%; /* ✅ Define uma largura máxima proporcional à tela */
+    max-width: 600px; /* ✅ Evita que o formulário fique muito largo em telas grandes */
+    margin: 40px auto; /* ✅ Centraliza horizontalmente e adiciona espaço superior/inferior */
+    background-color: #fff; /* ✅ Adiciona fundo branco para destacar o formulário */
+    padding: 30px; /* ✅ Aumenta o espaço interno (melhor espaçamento visual) */
+    border-radius: 10px; /* ✅ Bordas arredondadas suaves */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* ✅ Sombra leve para dar destaque */
+}
+
+.form-ticket label {
+    display: block; 
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #1B263B; /* Mantém cor escura e legível */
+}
+
+.form-ticket input, 
+.form-ticket textarea {
+    width: 100%; /* ✅ Garante que o campo ocupe toda a largura do formulário (sem ir até a borda da página) */
+    padding: 12px; /* Mantém conforto visual no texto */
+    border: 1px solid #1B263B; /* ✅ Torna as bordas visíveis e na cor do tema */
+    border-radius: 6px;
+    margin-top: 5px; /* ✅ Melhora o espaçamento entre label e campo */
+    font-size: 1em;
+    box-sizing: border-box; /* ✅ Evita que padding estoure o tamanho total do campo */
+}
+
+.form-ticket textarea {
+    resize: vertical; /* Permite redimensionar apenas verticalmente */
+    min-height: 100px; /* ✅ Garante uma área de texto confortável */
+}
+
+.btn-enviar {
+    display: inline-block;
+    background-color: #0077B6;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-enviar:hover {
+    background-color: #005f8f;
+}
+
+.alerta-sucesso {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center ;
+    justify-content: center;
+}
+
+
+/* ATALHOS */
+
+.atalhos {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.atalhos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /*quebra em telas menores */
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card {
+    width: 260px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s;
+}
+
+.card :hover {
+    transform: scale(1.05); /* zoom suave no hover */
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+
+/* ======== SUGESTÕES DE ARTIGOS ======== */
+.caixa-sugestoes {
+    background: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.titulo-sugestoes {
+    font-weight: bold;
+    color: #0077B6;
+    margin-bottom: 10px;
+}
+
+.artigo-sugestao {
+    background: #fff;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-left: 4px solid #0077B6;
+    transition: background 0.3s;
+}
+
+.artigo-sugestao:hover {
+    background: #e9f5ff;
+    cursor: pointer;
+}
+
+.nenhum-artigo {
+    color: #777;
+    font-style: italic;
+}
+
+
+
+
+/* RODAPÉ */
+
+/* ======== RODAPÉ (FOOTER) ======== */
+footer {
+    position: fixed; /* mantém o footer fixo no rodapé */
+    bottom: 0; /* cola no fim da tela */
+    left: 0;
+    width: 100%; /* ocupa toda a largura */
+    background-color: #0b1a2a; /* mesma cor que usa no site */
+    color: white; /* texto branco */
+    text-align: center;
+    padding: 1px 0px; /* espaçamento interno */
+    font-size: 14px;
+}
