@@ -1,4 +1,4 @@
-# Portal-Atendimento-Ice-Bank
+# Portal-Atendimento-
 Projeto acadêmico de portal de atendimento ao cliente desenvolvido com HTML, CSS, JavaScript e PHP, contendo base de conhecimento, FAQ dinâmico, abertura de tickets e área do colaborador com login para visualização e tratamento de chamados.
 Projeto acadêmico desenvolvido com o objetivo de simular um portal de atendimento ao cliente de uma instituição bancária, reunindo funcionalidades voltadas tanto ao público externo quanto à área interna de colaboradores.
 O sistema foi construído utilizando HTML, CSS, JavaScript e PHP, com apoio de arquivos JSON para armazenamento de dados de forma didática. A proposta do projeto foi aproximar o desenvolvimento acadêmico de um cenário real de suporte e atendimento, organizando recursos úteis para clientes e funcionários do banco.
